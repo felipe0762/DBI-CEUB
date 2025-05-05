@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2D389B46-EB10-E3A3-68EE-F65A9A45063C" name="nomePessoa">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:47:10 UTC</createdTime>
+<generatorID>8B78CEF7-0A9A-F0A7-EA10-7541B3EFC144</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomepessoa" id="6B03DD6E-4011-E665-1CBC-B7136ADB30FE">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:47:10 UTC</createdTime>
+<generatorID>AE7B025D-190E-D707-4596-651D7A03C83B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

@@ -1,0 +1,32 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="13DCFAA6-B4C6-D138-C122-FFE49181E9C2">
+<createdBy>denys.silva</createdBy>
+<modifiedBy>denys.silva</modifiedBy>
+<createdTime>2025-04-03 21:54:39 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showRelAttributes>false</showRelAttributes>
+<gridEnabled>false</gridEnabled>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="4C7DA7B5-7E06-4D83-B928-54AC02076259" otype="Relation" vid_source="8071B93C-5F21-7D7B-02DD-6DB5C09F37CB" vid_target="BA3ED48F-8B87-8726-2502-A3E00DC9922F">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="D092C193-F224-EF9D-C643-936485C6FDFB" otype="Relation" vid_source="39956805-E4B1-A425-8D7C-71A3735E33A2" vid_target="6BA51B3C-844F-3E31-39C9-EFA14BFF36F4">
+<hideElementsInCurrentOnly>false</hideElementsInCurrentOnly>
+<backgroundColor>-16777216</backgroundColor>
+<lineWidth>1</lineWidth>
+<points>
+<point x="230" y="278"/>
+<point x="321" y="278"/>
+</points>
+</Connector>
+</connectors>
+</Diagram>

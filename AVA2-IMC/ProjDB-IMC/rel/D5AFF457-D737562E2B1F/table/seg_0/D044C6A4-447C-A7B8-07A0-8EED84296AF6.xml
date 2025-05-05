@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D044C6A4-447C-A7B8-07A0-8EED84296AF6" name="hip">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>62B396B7-6D98-A2CB-8E40-1D622B0A5420</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>HistoricoImcPessoa</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dataMedidaImc" id="7EC537A4-60F0-BEDB-8CB7-64B4588C14A5">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>82849E8E-EDBF-62A3-5A84-DDBCD2BB221E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa" id="C5473877-8ACD-92D1-E427-BE538AAA3CA2">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>9771DB26-F79C-268F-CCBC-E59E987BE571</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesoPessoa" id="A3EF45A0-BE78-9889-D5D5-6471D58BB966">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>328337B8-59D4-0D2F-78A9-2EC83F42C2B4</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturaPessoa" id="63F3B95D-BD3E-2992-8D82-E7DCA25AA161">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>90A48F25-5F3E-3872-908B-B1DB978B8F69</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vlrImcPessoa" id="F75AE871-9424-E7B5-98D5-366C729C25CD">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<comment><![CDATA[vlrImcPessoa = pesoPessoa / (alturaPessoa x alturaPessoa)]]></comment>
+<generatorID>A0E3ABA1-DC19-ED91-EDDB-38C55D548DDF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseImcPessoa" id="16C1EECC-F547-8527-DAED-60F198372F9D">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<comment><![CDATA[Registro a análise do IMC da Pessoa a partir do resultado do cálculo do IMC, conforme segue:
+
+	IMC <18,5kg/m2: baixo peso. É recomendado procurar um médico para avaliação criteriosa do resultado. Pode indicar um estado de consumo do organismo, com poucas reservas e riscos associados.
+	IMC >18,5 até 24,9kg/m2: peso adequado. Tudo indica que está tudo bem, mas é importante avaliar outros parâmetros da composição corporal, para compreender se estão dentro do recomendado. Algumas pessoas apresentam IMC dentro da normalidade, mas têm circunferência abdominal maior que a recomendada e/ou quantidade de massa gorda acima do ideal.
+	IMC ≥25 até 29,9kg/m2: sobrepeso. O sobrepeso está associado ao risco de doenças como diabetes e hipertensão. Então, atenção! Consulte um médico e reveja hábitos para reverter o quadro. Também é importante avaliar outros parâmetros, como a circunferência abdominal.
+	IMC de 30,0- 34,9kg/m2: obesidade grau I. É importante buscar orientação médica e nutricional para entender melhor o seu caso, mesmo que os exames (colesterol e glicemia, por exemplo) estejam normais.
+	IMC de 35,0- 39,9kg/m2: obesidade grau II. Indica um quadro de obesidade mais evoluído em relação à classificação anterior e, mesmo com exames laboratoriais dentro da normalidade, não se deve atrasar a busca por orientação médica e nutricional.
+	IMC ≥ 40,0kg/m2: obesidade grau III. Nesse ponto, a chance de já estarmos diante de outras doenças associadas é mais elevada. É fundamental buscar orientação médica.
+]]></comment>
+<generatorID>BFF129C4-5490-6E30-C54A-BEBC9EB26819</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa1" id="CB11F2B7-EF18-41FA-2D51-0CA88F857E22">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>31AD7C78-13E2-27EA-D8C5-D69C080D1AFA</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfPessoa2" id="5D1070B9-17FD-9F52-10A2-001B3C67EE8E">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>9D96F66C-DB9B-FEC5-DF27-AE18B18C0068</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0FC4DE1D-6995-FA16-0522-B876A08C8C1B" name="hip_PK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>B74C6C4C-5F44-6246-30A6-247F1BA3E4F6</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C5473877-8ACD-92D1-E427-BE538AAA3CA2"/>
+<colUsage columnID="7EC537A4-60F0-BEDB-8CB7-64B4588C14A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

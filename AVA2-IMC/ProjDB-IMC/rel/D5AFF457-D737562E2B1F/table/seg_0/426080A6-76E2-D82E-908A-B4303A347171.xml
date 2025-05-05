@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="426080A6-76E2-D82E-908A-B4303A347171" name="Imchistorico">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:47:10 UTC</createdTime>
+<generatorID>C36E80D9-DE1A-5ACE-4AA5-EDC1CCFF46BB</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="datamedicao" id="6F216525-5909-CB85-8327-05914ADD9CD8">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:47:10 UTC</createdTime>
+<generatorID>0614B2F9-1E7F-14DF-19E3-DE27EF2B0BDF</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pesomedicao" id="1D8A8CAE-48E1-EDBE-44EB-B55B8799546C">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:47:10 UTC</createdTime>
+<generatorID>A78DCD4E-EDA2-D9D0-31E6-287E1321E59E</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alturamedicao" id="B41695A7-E07F-094B-9CDD-07A74214DA5B">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:47:10 UTC</createdTime>
+<generatorID>9FC69854-5218-10E9-2EC1-14BC12255264</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

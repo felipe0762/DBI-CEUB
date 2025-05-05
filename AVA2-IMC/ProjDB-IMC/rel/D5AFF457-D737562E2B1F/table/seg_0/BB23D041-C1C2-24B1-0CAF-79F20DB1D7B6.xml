@@ -1,0 +1,51 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB23D041-C1C2-24B1-0CAF-79F20DB1D7B6" name="pes">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>B943168F-0707-35D2-EF57-233D10BFA697</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<abbreviation>Pessoa</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfPessoa" id="DAE8CD64-5DA3-92D4-19CC-B5274DD16855">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>3B5E0956-81E3-CFE0-180B-BC617DACA87D</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomePessoa" id="21127485-401B-B3CE-1E14-27F47C03F6D9">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>147B9F53-F643-175D-EB48-F429B989B936</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="24F66F08-1881-E0E3-7EB7-7544D8D8D007" name="pes_PK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-04-28 23:45:51 UTC</createdTime>
+<generatorID>B243AE82-68B2-E4F1-9B66-8E0E3D59E6F9</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAE8CD64-5DA3-92D4-19CC-B5274DD16855"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
