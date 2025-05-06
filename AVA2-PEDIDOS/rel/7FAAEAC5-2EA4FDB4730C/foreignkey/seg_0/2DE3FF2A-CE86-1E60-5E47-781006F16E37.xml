@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2DE3FF2A-CE86-1E60-5E47-781006F16E37" containerWithKeyObject="C13119D5-6A9B-3DC9-8394-0EFA209FFE68" localFKIndex="D29691BD-2988-6CA5-9403-07DFAF20D2C0" name="Items_Pedido_FK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:40:51 UTC</createdTime>
+<generatorID>1ABB0A3E-8F03-BBA7-BC70-722969FC1310</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<referredTableLongName>Pedido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6FF6CB6B-BDDE-F87F-4FCC-AE08662D4EBC</referredTableID>
+<keyObject>50A0DA64-6E67-651A-6F59-060631320AC3</keyObject>
+<referredKeyID>50A0DA64-6E67-651A-6F59-060631320AC3</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>numPedido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

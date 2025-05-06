@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F5EE843-E79E-FF09-D905-63CC88B5C049" name="Clientes">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>4749DA05-3E78-590A-BDD5-F91D58D56266</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="C6F710C5-2018-EF5D-37ED-54263507B9B5">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>6CB564CD-A227-B3BB-591F-89C35BDDA3D5</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCompleto" id="E235363B-BFF6-887D-4725-65ABB5CCC96C">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>58A9BB2A-2BD2-E1EB-28DD-53C254E3D473</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="rndereço" id="C4136A49-BA6A-E9D5-0218-C5FF82B9794E">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>BF4D7919-7035-7C6E-39D8-E2F823300419</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="FFFCAD93-DC21-AF5A-F569-1CF3AD36EBDB">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>D777BCB1-EF27-E663-7E78-970CEAEA1658</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5CC1DB9E-3707-D45E-8D41-B50EAE9BBBE1" name="Clientes_PK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>79C424B3-FDE4-6823-2358-9825B2B6A012</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6F710C5-2018-EF5D-37ED-54263507B9B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

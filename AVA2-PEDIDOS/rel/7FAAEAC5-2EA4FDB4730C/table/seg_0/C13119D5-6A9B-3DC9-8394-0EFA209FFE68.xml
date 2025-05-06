@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C13119D5-6A9B-3DC9-8394-0EFA209FFE68" name="Items">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>EF845A73-F356-F441-4B9E-3876172438D8</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="idproduto" id="FD147670-05B5-568A-7E4B-670A9DC7BD1C">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>25EA3217-4691-F4DC-4BC2-82478D5AA307</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preçounit" id="A7F8D715-E2D8-D91D-30DC-954B4EB6282D">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>17E3CD2E-8089-28F4-B816-AF13283DFA82</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="decr" id="7B85411A-B511-0AA2-A4DC-8DEC0C8C7621">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>DFF745E1-9AFF-E023-43BE-6A6EA800CA95</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numPedido" id="2FB0EC05-B21C-590B-6B6A-E911C52A3DE5">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:40:51 UTC</createdTime>
+<generatorID>52FA7517-09F3-A65D-165D-5DE7A7C4911D</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Pedido_numPedido" id="DAFFC1E2-278E-106A-9F57-3945E2580CA9">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:40:51 UTC</createdTime>
+<generatorID>1459ACA1-9D33-1E77-6A15-6302C04C580F</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>12</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2DE3FF2A-CE86-1E60-5E47-781006F16E37" referredColumn="35899BDA-79A4-534A-61CF-2A9A4C1EEB66"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4464A681-1AC9-649A-513F-6E5976E0D65E" name="Items_PK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:35:13 UTC</createdTime>
+<generatorID>38F60055-2A73-E2A6-28F3-EF9C5485F168</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FD147670-05B5-568A-7E4B-670A9DC7BD1C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D29691BD-2988-6CA5-9403-07DFAF20D2C0" name="Items_Pedido_FK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-06 00:40:51 UTC</createdTime>
+<generatorID>1ABB0A3E-8F03-BBA7-BC70-722969FC1310</generatorID>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DAFFC1E2-278E-106A-9F57-3945E2580CA9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

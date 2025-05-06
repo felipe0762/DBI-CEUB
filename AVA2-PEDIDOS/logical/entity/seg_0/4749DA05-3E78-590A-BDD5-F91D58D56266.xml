@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4749DA05-3E78-590A-BDD5-F91D58D56266" name="Clientes">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-05 23:18:50 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="7FAAEAC5-74E1-8B00-05B2-2EA4FDB4730C" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="6CB564CD-A227-B3BB-591F-89C35BDDA3D5">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-05 23:18:57 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="7FAAEAC5-74E1-8B00-05B2-2EA4FDB4730C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nomeCompleto" id="58A9BB2A-2BD2-E1EB-28DD-53C254E3D473">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-05 23:20:04 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="7FAAEAC5-74E1-8B00-05B2-2EA4FDB4730C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rndereço" id="BF4D7919-7035-7C6E-39D8-E2F823300419">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-05 23:19:51 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="7FAAEAC5-74E1-8B00-05B2-2EA4FDB4730C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefone" id="D777BCB1-EF27-E663-7E78-970CEAEA1658">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-05 23:21:02 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<engineerTo>
+<item key="7FAAEAC5-74E1-8B00-05B2-2EA4FDB4730C" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79C424B3-FDE4-6823-2358-9825B2B6A012" name="clientes PK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-05 23:26:50 UTC</createdTime>
+<ownerDesignName>AVA2-PEDIDOS</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7FAAEAC5-74E1-8B00-05B2-2EA4FDB4730C" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>6CB564CD-A227-B3BB-591F-89C35BDDA3D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
