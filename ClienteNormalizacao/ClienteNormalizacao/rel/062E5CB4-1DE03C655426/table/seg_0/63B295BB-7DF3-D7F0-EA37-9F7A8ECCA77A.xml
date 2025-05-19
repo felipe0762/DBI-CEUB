@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="63B295BB-7DF3-D7F0-EA37-9F7A8ECCA77A" name="Pedidos">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<generatorID>F91F0ADA-49ED-0F22-0228-F438B4691947</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="numeroPedido" id="D549218C-A797-F49B-CB3D-4FEA8E4576E5">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[Número do pedido da compras.]]></comment>
+<generatorID>EC8C5665-8B40-9BF2-3031-AE0E34A4FD51</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfClientePedido" id="CD6FF63F-CCF6-7574-F298-FA56E637D559">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[Nome completo do cliente que realizou a compra.]]></comment>
+<generatorID>D3D28C7A-D448-31DB-984E-6A4EBB056ABA</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dataPedido" id="C784C003-55CC-C8D2-2ED7-71CC9B473912">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[Data do pedido que foi realizada a compra.]]></comment>
+<generatorID>A1696369-631B-6E2C-4043-5DF7895E9028</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="horaPedido" id="EA749C3C-E3F9-9558-38E3-1E9421A29E04">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[Horário do pedido que foi realizada a compra.]]></comment>
+<generatorID>293001E9-329A-2CA0-8DB7-6F47912DE1C5</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="53B2A8A6-259A-415C-87D6-53D88CDB6769">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>04DC1C1D-AA24-BF2E-FD84-5D1F1A23D9AC</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3041A156-7DA1-1E12-5558-1E8621AA7C86" name="Pedidos_PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<generatorID>CB067F4A-46ED-CDB9-B586-A7B2774DE245</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D549218C-A797-F49B-CB3D-4FEA8E4576E5"/>
+<colUsage columnID="CD6FF63F-CCF6-7574-F298-FA56E637D559"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="16CF4FE9-E914-DF73-02BA-DBE4EE43C3F6" name="Pedidos_Clientes_FK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<generatorID>3DC619EB-838A-A741-4426-FBB0B76E5528</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

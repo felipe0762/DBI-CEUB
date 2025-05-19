@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DC1C2E8F-1C90-F07F-6B67-112A0F7D4C40" name="EnderecoCliente">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="CD61BE3F-E084-8836-6AA4-C024472E658E">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="false"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoCliente" id="2264C1E0-CA8D-BD99-32FD-5635DAF6C0E3">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoCliente" id="0A1C0C6E-7DAB-CFB0-F25F-5FA9881C9953">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoCliente" id="EF79D421-F39D-20EB-0B25-84A35D4317EB">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoCliente" id="F80380B4-DDF3-7323-D8B1-10B1BA4A94EC">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoCliente" id="D8023A97-C1A4-C3C5-4CE6-328A3E278371">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoCliente" id="F2FFF70E-846A-415D-E85F-7002590E6223">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="E3987043-C464-1DB5-FF45-3EA259C453D2">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:39:26 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>40C6343C-3792-0DFD-CE7C-2523EA15EDC4</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<referedAttribute>F7D37484-590C-ACA8-F6B0-8D856E42C650</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="886E208C-ADF3-DC31-1F62-38ABF13CC03B" name="Clientes PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:34:46 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD61BE3F-E084-8836-6AA4-C024472E658E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

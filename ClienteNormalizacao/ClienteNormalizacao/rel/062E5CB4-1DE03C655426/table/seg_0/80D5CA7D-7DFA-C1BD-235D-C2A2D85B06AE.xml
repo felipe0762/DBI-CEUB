@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80D5CA7D-7DFA-C1BD-235D-C2A2D85B06AE" name="Clientes">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<generatorID>004BF3B5-B214-BF46-9910-3E98D392E9D8</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente1" id="9A8DE275-6EDC-F007-25FD-F38405AE9938">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>9C68BE81-BB24-CF0B-6BBB-442F81889AA7</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCliente" id="5A578D61-47D6-2FE0-F724-335981067012">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>48FE674E-76A7-7C1D-EECE-2DEE69AF935F</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="035C9905-B863-929B-1F73-1B74BBC70393" name="Clientes_PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<generatorID>DC878036-EEBE-BC65-1164-CA0CC88EF02D</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

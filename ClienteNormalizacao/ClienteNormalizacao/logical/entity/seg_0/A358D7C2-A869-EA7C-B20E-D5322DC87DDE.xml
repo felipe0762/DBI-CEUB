@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A358D7C2-A869-EA7C-B20E-D5322DC87DDE" name="EmailCliente">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:23:34 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="DDA60FC5-DDBE-801E-432A-3FA97C4C799A">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:24:30 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="emailCliente" id="EDD60DE7-E8D6-C280-69F5-304FD6F25749">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:25:06 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="65676BA7-3D95-5B21-E6A3-35EAB5997D95">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:29:46 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>4CCD24A3-50F7-0AB2-EC37-AE57A2E6FB1F</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="true"/>
+</engineerTo>
+<referedAttribute>F7D37484-590C-ACA8-F6B0-8D856E42C650</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CBE2E4C7-B143-E9C4-B308-235E390AD5F8" name="EmailCliente PK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 22:25:01 UTC</createdTime>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="062E5CB4-9FA4-C89B-5C3E-1DE03C655426" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DDA60FC5-DDBE-801E-432A-3FA97C4C799A</attributeRef>
+<attributeRef>EDD60DE7-E8D6-C280-69F5-304FD6F25749</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

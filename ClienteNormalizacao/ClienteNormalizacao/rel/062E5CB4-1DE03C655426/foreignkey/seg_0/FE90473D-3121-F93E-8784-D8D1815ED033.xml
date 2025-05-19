@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FE90473D-3121-F93E-8784-D8D1815ED033" containerWithKeyObject="722624D8-4780-68BA-88C4-87B0EAD859D7" localFKIndex="673BDE13-DC46-DC4E-3BF0-AC123466FB62" name="ItensPedidos_Pedidos_FK">
+<createdBy>denys.silva</createdBy>
+<createdTime>2025-05-08 23:19:13 UTC</createdTime>
+<generatorID>D245F889-B8BF-F389-BA0D-895D4C1B015A</generatorID>
+<ownerDesignName>ClienteNormalizacao</ownerDesignName>
+<referredTableLongName>Pedidos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>63B295BB-7DF3-D7F0-EA37-9F7A8ECCA77A</referredTableID>
+<keyObject>3041A156-7DA1-1E12-5558-1E8621AA7C86</keyObject>
+<referredKeyID>3041A156-7DA1-1E12-5558-1E8621AA7C86</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>numeroPedido</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
