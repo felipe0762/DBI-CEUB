@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FBB63359-06EB-9492-A3C9-96635BF1502F" name="Endereco">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:29:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="F036ADCE-B0F0-351E-1801-9F9CDEAFF359">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:30:33 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEndereco" id="4911F2E8-CA6A-B421-94BF-7C174CE3FB95">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:30:51 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEndereco" id="2EEDFABC-1207-0BF0-0D0E-C716D23FDB5C">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:31:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="796FA0DF-D15B-E76F-5F2B-68748432CF7E">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:31:24 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEndereco" id="5BD7B2EF-4D2E-934F-8D21-EA53171846AD">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:31:57 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEndereco" id="B2D729F8-8B8C-7848-BC9F-A8244D51464D">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:32:10 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEndereco" id="286B0AFC-E099-D843-AB15-CEF97389AE5D">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:33:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="0A1E77AE-CB24-2931-330B-0C219E921446">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-20 00:03:50 UTC</createdTime>
+<generatorID>D60A0094-FDCE-88A2-A051-162F93F8DE6F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<referedAttribute>2A08A419-DE88-B481-569B-5FA5E39ED578</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfDependente" id="519CDCAD-8713-8E72-448A-09827FFC1997">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-20 00:03:55 UTC</createdTime>
+<generatorID>2BB6650E-89F1-F47E-BD93-ECFB02A00E0C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<referedAttribute>1ED68AEC-83D4-4890-15B9-69D5FBA8A475</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular1" id="F339AB24-C250-D5A1-59A8-8D1EF0315DFA">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-20 00:05:22 UTC</createdTime>
+<generatorID>2BB6650E-89F1-F47E-BD93-ECFB02A00E0C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<referedAttribute>AAD460AF-F3C8-8447-3575-BE16A1B42E83</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EF2F2AAF-0786-DF01-E65E-28D5833513A2" name="EnderecoTitular PK">
+<createdBy>felipe076</createdBy>
+<createdTime>2025-05-19 23:30:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="912DDC74-5B18-980A-7BED-EEF0BA92443D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F036ADCE-B0F0-351E-1801-9F9CDEAFF359</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
